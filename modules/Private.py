@@ -7,26 +7,26 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_photo("https://telegra.ph/file/5993e1a643d3986a27d9e.jpg")
+    await message.reply_photo("https://telegra.ph/file/d5c53489744b645f94344.jpg")
     await message.reply_text(
-        f"""**Hey, I'm AXEL 😊🎵
+        f"""**Hey, ι'αм αℓιzα ρяσ вσт 🥀⚡
 
-I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Developed by [Axel](https://t.me/suraj_o_p)
+ι cαη ρℓαү мυsιc ιη үσυя sεxү gяσυρ's vσιc cнαт crαtє вү [cσвяα](https://t.me/XD_LIF)
 
-Add me to your group and play music freely😆!**
+αdd мε тσ үσυя gяσυρ αηd ρℓαү мυsιc ησ ℓαg αηd ησηsтσρ🔥✨!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Oᴡɴᴇʀ", url="https://t.me/suraj_o_p")
+                        "cяαтεя", url="https://t.me/XD_LIF")
                   ],[
                     InlineKeyboardButton(
-                        "🛡 SUPPORT GROUP 🛡", url="https://t.me/AXEL_SUPPORT"
+                        "💝 sυρρσят gяσυρ 💝", url="https://t.me/MISTY_SUPORTER"
                     ),
                 ],[ 
                     InlineKeyboardButton(
-                        "ADD ME TO YOUR GROUP😉", url="https://t.me/AXEL_MUSICBOT?startgroup=true"
+                        "мαт dεнкσ αdd кαяℓσ αвв👿", url="https://t.me/AXEL_MUSICBOT?startgroup=true"
                     )]
             ]
         ),
@@ -35,12 +35,12 @@ Add me to your group and play music freely😆!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**AXELMUSIC BOT IS WORKING**""",
+      await message.reply_text("""**αℓιzα мυsιc ιs ωσякιηg**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📚 COMMANDS 📚", url="https://t.me/AXEL_SUPPPORTXD/24")
+                        "📚 cσммαηds 📚", url="https://t.me/MISTY_SUPORT/46")
                 ]
             ]
         )
